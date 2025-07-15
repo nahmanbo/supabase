@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/nahmanbo/supabase/issues"
   },
-  "homepage": "https://github.com/nahmanbo/supabase#readme"
+  "homepage": "https://github.com/nahmanbo/supabase#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.51.0",
+    "express": "^5.1.0"
+  }
 }
