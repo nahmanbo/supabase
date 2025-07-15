@@ -1,10 +1,8 @@
 import express from "express";
-import dotenv from "dotenv";
 import authRouter from "./routes/authRouter.js";
 import productRouter from "./routes/productRouter.js";
 import { logger } from "./utils/loggerHelper.js";
 
-dotenv.config();
 const PORT = process.env.PORT || 1234;
 const server = express();
 
